@@ -50,5 +50,9 @@ web/web.config
 web/.vscode/
 web/themes/custom/renew/.sass-cache/
 web/.idea
+web/.ht.router.php
+web/INSTALL.txt
 
 modules/
+
+.env
