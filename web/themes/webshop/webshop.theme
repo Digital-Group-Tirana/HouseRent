@@ -1,0 +1,5 @@
+<?php
+
+function webshop_preprocess_html(&$variables){
+  // kint(array_keys($variables));
+}

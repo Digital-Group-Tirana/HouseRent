@@ -4,6 +4,7 @@
 
 # Ignore configuration files that may contain sensitive information
 .vscode/
+/.editorconfig
 .env
 web/sites/*/*settings*.php
 web/sites/*/*services*.yml
