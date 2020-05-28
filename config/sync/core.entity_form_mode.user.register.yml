@@ -1,0 +1,12 @@
+uuid: d3f64a41-74ba-4308-91d7-95c3f7ed4f7f
+langcode: it
+status: true
+dependencies:
+  module:
+    - user
+_core:
+  default_config_hash: flXhTcp55yLcyy7ZLOhPGKGZobZQJdkAFVWV3LseiuI
+id: user.register
+label: Registrati
+targetEntityType: user
+cache: true

@@ -1,0 +1,10 @@
+uuid: 129826aa-5c0d-4839-92f5-8c52036e3053
+langcode: it
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: wKD4WsoV_wFgv2vgI4mcAAFSIzrye17ykzdwrnApkfY
+id: html_week
+label: 'Settimana HTML'
+locked: true
+pattern: Y-\WW

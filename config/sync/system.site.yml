@@ -1,0 +1,14 @@
+uuid: 491ce981-672c-46cb-a405-28fd3ed50740
+name: HomeRent
+mail: carbonaro.cristina@consfera.it
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: it
+default_langcode: it
+_core:
+  default_config_hash: yTxtFqBHnEWxQswuWvkjE8mKw2t8oKuCL1q8KnfHuGE
