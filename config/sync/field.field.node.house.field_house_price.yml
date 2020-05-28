@@ -1,0 +1,23 @@
+uuid: 71a3b73e-445e-499a-adcf-2c45e39eaa70
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_house_price
+    - node.type.house
+id: node.house.field_house_price
+field_name: field_house_price
+entity_type: node
+bundle: house
+label: 'House price'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: decimal

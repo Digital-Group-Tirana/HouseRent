@@ -1,0 +1,20 @@
+uuid: 64ff56f2-391b-4871-9104-7cd1d65e5c33
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_house_price
+field_name: field_house_price
+entity_type: node
+type: decimal
+settings:
+  precision: 10
+  scale: 2
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

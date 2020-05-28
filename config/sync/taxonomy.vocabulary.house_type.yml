@@ -1,0 +1,8 @@
+uuid: 8b757020-a3bc-4089-b72e-39d6bc22b913
+langcode: en
+status: true
+dependencies: {  }
+name: 'House type'
+vid: house_type
+description: ''
+weight: 0

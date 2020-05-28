@@ -1,0 +1,11 @@
+uuid: 8a9397cf-2caf-4e14-b443-705ac09f331d
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.house_type
+id: taxonomy_term.house_type
+target_entity_type_id: taxonomy_term
+target_bundle: house_type
+default_langcode: site_default
+language_alterable: false
