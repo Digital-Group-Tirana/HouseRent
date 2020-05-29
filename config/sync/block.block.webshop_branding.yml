@@ -1,0 +1,25 @@
+uuid: 63833588-f816-47f5-8133-baf5f55716bc
+langcode: it
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - webshop
+_core:
+  default_config_hash: NDwadleLD3YVSbDUaakxyYZyINYtkFtOVGShfq4kWy8
+id: webshop_branding
+theme: webshop
+region: header
+weight: 0
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  provider: system
+  label_display: '0'
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: true
+visibility: {  }

@@ -1,0 +1,20 @@
+uuid: c24e2f02-7997-4a22-a8e8-ebb674da4bcc
+langcode: it
+status: true
+dependencies:
+  theme:
+    - webshop
+_core:
+  default_config_hash: 13GQpeITIJsp1kyPniXtWZfyFH87vb1xxJCHifL4UeE
+id: webshop_local_actions
+theme: webshop
+region: content
+weight: -20
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }
