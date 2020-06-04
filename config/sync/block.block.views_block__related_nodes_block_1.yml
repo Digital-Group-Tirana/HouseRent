@@ -1,0 +1,38 @@
+uuid: 067f6d56-d71f-401b-b450-c154c7acc412
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.related_nodes
+  module:
+    - node
+    - system
+    - views
+  theme:
+    - webshop
+id: views_block__related_nodes_block_1
+theme: webshop
+region: content
+weight: 0
+provider: null
+plugin: 'views_block:related_nodes-block_1'
+settings:
+  id: 'views_block:related_nodes-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      house: house
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: true
+    context_mapping: {  }
