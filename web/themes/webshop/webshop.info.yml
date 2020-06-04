@@ -2,6 +2,8 @@ name: Workshop Theme
 description: Our super cool theme
 type: theme
 core: 8.x
+# Defines the base theme
+base theme: bartik
 
 libraries:
   - webshop/webshop-style

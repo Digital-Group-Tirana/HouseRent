@@ -1,0 +1,30 @@
+uuid: 765ab49b-ce18-4ea4-beae-28ab235f9478
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.taxonomy_list_block
+  module:
+    - system
+    - views
+  theme:
+    - webshop
+id: views_block__taxonomy_list_block_block_1_2
+theme: webshop
+region: content
+weight: -7
+provider: null
+plugin: 'views_block:taxonomy_list_block-block_1'
+settings:
+  id: 'views_block:taxonomy_list_block-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

@@ -9,12 +9,12 @@ _core:
 id: bartik_page_title
 theme: bartik
 region: content
-weight: -50
+weight: -6
 provider: null
 plugin: page_title_block
 settings:
   id: page_title_block
-  label: 'Titolo della pagina'
+  label: 'Page title'
   provider: core
   label_display: '0'
 visibility: {  }

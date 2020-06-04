@@ -1,10 +1,9 @@
 webshop-style:
   css:
-    theme:
-      css/materialize.css: {}
+    base:
       css/style.css: {}
   js:
     js/materialize.js: {}
     js/init.js: {}
   dependencies:
-    - core/jquery     
+    - core/jquery

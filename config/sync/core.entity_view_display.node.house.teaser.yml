@@ -11,15 +11,24 @@ dependencies:
     - node.type.house
   module:
     - image
+    - text
     - user
 id: node.house.teaser
 targetEntityType: node
 bundle: house
 mode: teaser
 content:
+  body:
+    type: text_trimmed
+    weight: 1
+    region: content
+    label: hidden
+    settings:
+      trim_length: 450
+    third_party_settings: {  }
   field_house_image:
     type: image
-    weight: 1
+    weight: 0
     region: content
     label: hidden
     settings:
@@ -46,10 +55,9 @@ content:
       link: true
     third_party_settings: {  }
   links:
-    weight: 0
+    weight: 4
     region: content
     settings: {  }
     third_party_settings: {  }
 hidden:
-  body: true
   langcode: true
