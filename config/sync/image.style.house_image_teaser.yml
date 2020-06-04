@@ -1,0 +1,19 @@
+uuid: 97f2bb28-ed26-4c2e-b957-cc9cc6a9f5a0
+langcode: en
+status: true
+dependencies: {  }
+name: house_image_teaser
+label: 'house image teaser'
+effects:
+  83431dd9-a57b-4bac-9b1f-fea958c7ecfb:
+    uuid: 83431dd9-a57b-4bac-9b1f-fea958c7ecfb
+    id: image_resize
+    weight: 1
+    data:
+      width: 600
+      height: 400
+  76b8dfbf-662c-4bdb-bfbe-7a421d347a78:
+    uuid: 76b8dfbf-662c-4bdb-bfbe-7a421d347a78
+    id: image_desaturate
+    weight: 2
+    data: {  }

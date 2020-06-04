@@ -8,6 +8,7 @@ dependencies:
     - field.field.node.house.field_house_image
     - field.field.node.house.field_house_price
     - field.field.node.house.field_house_type
+    - image.style.house_image_teaser
     - node.type.house
   module:
     - image
@@ -32,7 +33,7 @@ content:
     region: content
     label: hidden
     settings:
-      image_style: ''
+      image_style: house_image_teaser
       image_link: ''
     third_party_settings: {  }
   field_house_price:
