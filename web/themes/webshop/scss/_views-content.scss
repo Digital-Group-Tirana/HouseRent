@@ -1,0 +1,87 @@
+.view-taxonomy-list-block {
+  a {
+    border-bottom: none;
+  }
+  background-color: #f5f5f5;
+  padding: 12px 15px;
+  // margin-top: -14px;
+  .view--tax {
+    display: inline-block;
+    margin: 0 10px;
+
+    .field-content {
+      & a {
+        color: #333;
+        border-bottom: none;
+        text-decoration: none;
+        text-transform: uppercase;
+      }
+    }
+  }
+}
+
+// .view-frontpage {
+//   .field--name-field-house-image {
+//     width: 30%;
+//     display: inline-block;
+//   }
+
+//   .field--type-text-with-summary {
+//     width: 68%;
+//     display: inline-block;
+//   }
+// }
+
+// .region-sidebar-first {
+//   margin-top: 14px;
+// }
+
+.views-col {
+  .node--view-mode-teaser {
+    border-bottom: none;
+    background-color: #fff;
+    padding: 15px 30px;
+    border: 1px solid #dbdbdb;
+    box-shadow: 5px 10px #e6e1e1;
+  }
+}
+
+.node--type-house {
+  border-bottom: none;
+  margin: 0 20px;
+
+  .field--name-field-house-image {
+    width: 100%;
+  }
+
+  .node__title {
+    & a {
+      color: #1d84c3;
+      font-size: 28px;
+    }
+  }
+
+  .node-readmore {
+    background-color: #1d84c3;
+    padding: 8px 15px;
+    float: left;
+    & a {
+      color: #fff;
+    }
+  }
+}
+
+#block-views-block-view-relation-block-1 {
+  h2 {
+    margin: 30px 20px;
+    text-align: center;
+    font-size: 28px;
+    color: #1d84c3;
+  }
+  .views-view-grid {
+    .grid-kol {
+      width: 29%;
+      margin: 0 20px;
+    }
+  }
+}

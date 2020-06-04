@@ -1,0 +1,9 @@
+webshop-style:
+  css:
+    base:
+      css/style.css: {}
+  js:
+    js/materialize.js: {}
+    js/init.js: {}
+  dependencies:
+    - core/jquery

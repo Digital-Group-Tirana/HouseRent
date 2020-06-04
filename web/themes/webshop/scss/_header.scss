@@ -1,0 +1,23 @@
+#header {
+  background: none;
+  .region-header {
+    padding: 0 0 20px 0;
+    .block-system-branding-block img {
+      width: 150px;
+    }
+    .menu--main {
+      border: 0;
+      li {
+        display: inline-block;
+        a {
+          font-size: 20px;
+          font-weight: bold;
+          &:hover {
+            background-color: transparent;
+            color: #ffffff8f;
+          }
+        }
+      }
+    }
+  }
+}

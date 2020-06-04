@@ -1,0 +1,62 @@
+uuid: 9fa14e24-b130-4f4f-8621-4a5dfbe0ec16
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.house.body
+    - field.field.node.house.field_house_image
+    - field.field.node.house.field_house_price
+    - field.field.node.house.field_house_type
+    - image.style.house_image
+    - node.type.house
+  module:
+    - image
+    - text
+    - user
+id: node.house.default
+targetEntityType: node
+bundle: house
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 1
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_house_image:
+    weight: 0
+    label: hidden
+    settings:
+      image_style: house_image
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_house_price:
+    weight: 2
+    label: hidden
+    settings:
+      thousand_separator: ''
+      decimal_separator: .
+      scale: 2
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_decimal
+    region: content
+  field_house_type:
+    weight: 3
+    label: hidden
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  links:
+    weight: 4
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  langcode: true

@@ -1,0 +1,11 @@
+uuid: 48f0be0e-09f0-4456-86f3-e4491bae713a
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.house
+id: node.house
+target_entity_type_id: node
+target_bundle: house
+default_langcode: site_default
+language_alterable: false

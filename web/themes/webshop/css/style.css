@@ -1,0 +1,66 @@
+#header {
+  background: none; }
+  #header .region-header {
+    padding: 0 0 20px 0; }
+    #header .region-header .block-system-branding-block img {
+      width: 150px; }
+    #header .region-header .menu--main {
+      border: 0; }
+      #header .region-header .menu--main li {
+        display: inline-block; }
+        #header .region-header .menu--main li a {
+          font-size: 20px;
+          font-weight: bold; }
+          #header .region-header .menu--main li a:hover {
+            background-color: transparent;
+            color: #ffffff8f; }
+
+.view-taxonomy-list-block {
+  background-color: #f5f5f5;
+  padding: 12px 15px; }
+  .view-taxonomy-list-block a {
+    border-bottom: none; }
+  .view-taxonomy-list-block .view--tax {
+    display: inline-block;
+    margin: 0 10px; }
+    .view-taxonomy-list-block .view--tax .field-content a {
+      color: #333;
+      border-bottom: none;
+      text-decoration: none;
+      text-transform: uppercase; }
+
+.views-col .node--view-mode-teaser {
+  border-bottom: none;
+  background-color: #fff;
+  padding: 15px 30px;
+  border: 1px solid #dbdbdb;
+  box-shadow: 5px 10px #e6e1e1; }
+
+.node--type-house {
+  border-bottom: none;
+  margin: 0 20px; }
+  .node--type-house .field--name-field-house-image {
+    width: 100%; }
+  .node--type-house .node__title a {
+    color: #1d84c3;
+    font-size: 28px; }
+  .node--type-house .node-readmore {
+    background-color: #1d84c3;
+    padding: 8px 15px;
+    float: left; }
+    .node--type-house .node-readmore a {
+      color: #fff; }
+
+#block-views-block-view-relation-block-1 h2 {
+  margin: 30px 20px;
+  text-align: center;
+  font-size: 28px;
+  color: #1d84c3; }
+#block-views-block-view-relation-block-1 .views-view-grid .grid-kol {
+  width: 29%;
+  margin: 0 20px; }
+
+a {
+  border-bottom: none; }
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,15 @@
+uuid: 43fe5209-1291-448a-b3f3-acac7a8646dc
+langcode: en
+status: true
+dependencies: {  }
+name: house_image
+label: 'House image'
+effects:
+  7ae0110b-f45a-43de-b62d-df9f578984ba:
+    uuid: 7ae0110b-f45a-43de-b62d-df9f578984ba
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 600
+      height: 400
+      anchor: center-center

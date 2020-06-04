@@ -1,0 +1,32 @@
+uuid: 6123b1ee-df12-467e-abf8-c523b969b099
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.view_relation
+  module:
+    - node
+    - views
+  theme:
+    - webshop
+id: views_block__view_relation_block_1
+theme: webshop
+region: content
+weight: 0
+provider: null
+plugin: 'views_block:view_relation-block_1'
+settings:
+  id: 'views_block:view_relation-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      house: house
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
