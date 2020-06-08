@@ -7,3 +7,20 @@ webshop-style:
     js/init.js: {}
   dependencies:
     - core/jquery
+
+slick-slider:
+  remote: https://github.com/kenwheeler/slick/
+  license:
+    name: MIT
+    url: https://github.com/kenwheeler/slick/blob/master/LICENSE
+  css:
+    theme:
+      https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css : { type: external, minified: true }
+  js:
+    https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js : {type: external, minified: true}
+
+houses:
+  js:
+    js/slider.js: {}
+  dependencies:
+    - webshop/slick-slider
